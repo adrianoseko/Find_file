@@ -20,10 +20,11 @@ for diretorio, subpastas, arquivos in os.walk(pasta):
             x = xml.read()
             for n in lista_nf:
                 if n in x: 
-                    xml.close()
+                   
                     source = f"C:/Users/admin/Desktop/Adriano/Projetos_SW/xml/xml_mes_09_11/{arquivo}"
                     destination = f"C:/Users/admin/Desktop/Adriano/Projetos_SW/xml/Nova pasta/{arquivo}"
                     shutil.move(source, destination) 
                     print(n)
+                    xml.close()
                 xml.close()
         
