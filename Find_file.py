@@ -7,7 +7,6 @@ pasta = 'C:/Users/admin/Desktop/Adriano/Projetos_SW/xml/xml_mes_09_11'
 ex = pd.read_excel('C:/Users/admin/Desktop/Adriano/Projetos_SW/acha arquivo/IDMOV.xlsx')
 nf = ex.NF.values
 lista_nf= []
-i = 0 
 index = 0
 for n in nf:
     lista_nf.append(str(f"<nNF>{n}</nNF>"))
