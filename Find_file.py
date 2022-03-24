@@ -11,7 +11,7 @@ i = 0
 index = 0
 for n in nf:
     lista_nf.append(str(f"<nNF>{n}</nNF>"))
-    i= +i
+    
   
 
 for diretorio, subpastas, arquivos in os.walk(pasta):
